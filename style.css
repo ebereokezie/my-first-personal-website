@@ -1,3 +1,87 @@
 body {
-    background: blue;
+    background:  linear-gradient(to right, rgb(99, 23, 23), rgba(255, 255, 255, 0.781));
 }
+h1 {
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h2 {
+    text-align: center;
+}
+
+div#Tom_Brady img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+div#Russell_Westbrook img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+div#Jermaine_Cole img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+div#Jermaine_Cole p {
+    text-align: center;
+    display: block;
+    font-style: italic;
+}
+div#Russell_Westbrook p {
+    text-align: center;
+    display: block;
+    font-style: italic;
+}
+
+div#Tom_Brady p, h3 {
+    text-align: center;
+    display: block;
+    font-style: italic;
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #792b2b;
+  
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+  }
+
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+ body p#footer_info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+  }

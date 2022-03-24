@@ -1,5 +1,5 @@
-function openCity(evt, cityName) {
-    var i, tabcontent, tablinks; 
+function openCity(evt, celebName) {
+    let i, tabcontent, tablinks; 
     tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
@@ -10,6 +10,6 @@ function openCity(evt, cityName) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
 
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(celebName).style.display = "block";
   evt.currentTarget.className += " active";
 }
